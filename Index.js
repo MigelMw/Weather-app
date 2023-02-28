@@ -31,15 +31,15 @@ function weatherSearch(){
                         <h3>${condition.text}</h3>
                     </div>
                     <div class="windspeed">
-                        <img src="windy.svg" class="wind">
+                        <img src="./Images/windy.svg" class="wind">
                         <p>Wind Speed: ${data.current.wind_kph} km/hr</p>
                     </div>
                     <div class="humidity">
-                        <img src="drop.svg" class="humidity">
+                        <img src="./Images/drop.svg" class="humidity">
                         <p>Humidity: ${data.current.humidity}</p>
                     </div>
                     <div class="temp">
-                        <img src="thermometer.svg" class="thermometer">
+                        <img src="./Images/thermometer.svg" class="thermometer">
                         <p>Temperature: ${temp}</p>
                     </div>
                 </div>
