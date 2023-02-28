@@ -47,10 +47,13 @@ function weatherSearch(){
             }
             // if location is not in database 
             else{
-                result.innerHTML = `<h3>There is no such place</h3>`;
+                result.innerHTML = `<h3>${data.Error}</h3>`;
             }
 
         })
+        .catch(()=>{
+            result.innerHTML = `<h3 class="msg">Error occured</h3>`;
+        });
     }
 }
 
